@@ -1,4 +1,4 @@
-module generate-ui
+module github.com/AlexUndead/swagger-tools
 
 go 1.21.6
 
