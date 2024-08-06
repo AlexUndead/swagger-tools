@@ -13,7 +13,7 @@ import (
 func main() {
     // Параметры командной строки
     openAPIFilePath := flag.String("yaml", "api/openapi.yaml", "Путь к YAML файлу OpenAPI")
-    swaggerTemplateFilePath := flag.String("template", "cmd/swagger/templates/swagger_ui.html", "Путь к HTML шаблону Swagger UI")
+    swaggerTemplateFilePath := flag.String("template", "/templates/swagger_ui.html", "Путь к HTML шаблону Swagger UI")
     outputFilePath := flag.String("output", "api/swagger_ui.html", "Путь к выходному HTML файлу")
     flag.Parse()
 
